@@ -1,0 +1,14 @@
+header {
+    background-color: #1e8eff;
+    padding: 2rem;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 1rem;
+  }

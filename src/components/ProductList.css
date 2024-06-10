@@ -1,0 +1,14 @@
+h2 {
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
