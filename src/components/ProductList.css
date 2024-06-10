@@ -1,14 +1,41 @@
-h2 {
-    text-align: center;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  ul li {
-    padding: 1rem;
-    border-bottom: 1px solid #ddd;
-  }
-  
+.product-list-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.product-list-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.product-list-container li {
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+}
+
+.product-list-container h3 {
+  margin: 0;
+}
+
+.product-list-container p {
+  margin: 0.5rem 0;
+}
+
+.product-list-container img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 0.5rem;
+}
+
+.product-list-container button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
